@@ -1,0 +1,252 @@
+:root{
+    --amarelo: rgb(253, 253, 36);
+    --pretofosco: rgb(29, 28, 28);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    background: var(--pretofosco);
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--amarelo);
+    font-family: 'Arial Black', sans-serif;
+    font-size:40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:blanchedalmond
+}
+
+main nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 5px;
+}
+
+main nav a:hover{
+    color: blanchedalmond;
+}
+
+footer{
+    background-color: var(--pretofosco);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/*Elementos Anime Principal*/
+
+.anime-principal{
+    font-size: 15px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/image/capa-kimetsu-no-yaiba.jpg');
+    
+    height: 750px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.anime-principal .container{
+    width: 80%;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    height: 3rem;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.indicacao{
+    margin-bottom: 40px;
+}
+
+.sinopse{
+    font-size: 20px;
+}
+
+.descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.box-lancamento{
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+
+.box-lancamento:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 999;
+    transform: 0.5s;
+}
+
+
+.carrosel-lancamentos{
+    margin-top: 5px;
+}
+
+.lancamentos{
+    font-size: 25px;
+}
+
+.box-anime{
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+
+.box-anime:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 999;
+    transform: 0.5s;
+}
+
+.carrosel-animes{
+    margin-top: 5px;
+}
+
+.animes{
+    font-size: 25px;
+}
+
+.box-serie{
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+
+.box-serie:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 999;
+    transform: 0.5s;
+}
+
+.carrosel-series{
+    margin-top: 5px;
+}
+
+.series{
+    font-size: 25px;
+
+}
+    
+.box-filme{
+        height: 100%;
+        width: 100%;
+        display: block;
+        transition: 0.5s;
+}
+
+.box-filme:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 999;
+    transform: 0.5s;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}
+    
+.filmes{
+        font-size: 25px;
+
+}
+
+.box-documentarios{
+    height: 100%;
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+
+.box-documentarios:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 999;
+    transform: 0.5s;
+}
+
+.carrosel-documentarios{
+margin-top: 5px;
+}
+
+.documentarios{
+    font-size: 25px;
+
+}
+
