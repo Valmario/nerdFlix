@@ -1,6 +1,6 @@
-# Interface_Nerd.flix
+# Interface_Nerdflix
 
-Criando interface do Nerd.Flix baseado na interface do Netflix, utilizando tecnologias simples do HTML5, CSS3 e JavaScript. Desafio proposto pela Digital Innovation One, ministrado por Felipe Aguiar.
+Criando interface do NerdFlix baseado na interface do Netflix, utilizando tecnologias simples do HTML5, CSS3 e JavaScript. Desafio proposto pela Digital Innovation One, ministrado por Felipe Aguiar.
 No projeto aprendi a utilizar:
 
 1. Estruturar um layout;
