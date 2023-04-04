@@ -25,4 +25,7 @@ A interface Nerdflix foi desenvolvida utilizando as seguintes tecnologias:
 ## Considerações finais
 Este projeto foi uma ótima oportunidade para aprender técnicas importantes de desenvolvimento web utilizando tecnologias simples, mas poderosas. Agradeço à Digital Innovation One e ao Felipe Aguiar pela capacitação para desenvolver a interface da Nerdflix.
 
+## Deploy
+https://nerd-flix.netlify.app
+
 ![nerdflix](https://user-images.githubusercontent.com/85584745/175066321-dff6347d-37e1-4879-93ca-2f3ac0a31427.gif)
